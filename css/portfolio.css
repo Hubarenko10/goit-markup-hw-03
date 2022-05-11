@@ -24,7 +24,7 @@ a {
   padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px solid red;
+  
 }
 .vissual-hidden {
   position: absolute;
@@ -43,11 +43,20 @@ a {
   padding-bottom: 94px;
 }
 /*header*/
-
-
 .header {
-  outline: 1px solid red;
   border-bottom: 1px solid #ECECEC;
+
+}
+
+.link-header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: inline-block;
+}
+
+.link-logo-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-box {
@@ -62,8 +71,6 @@ a {
   line-height: 1.19;
   letter-spacing: 0.03em;
   margin-right: 93px;
-  margin-top: 25px;
-  margin-bottom: 24px;
 }
 
 .logo {
@@ -85,8 +92,7 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
   margin-right: 331px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+
   padding: 0;
   display: flex;
   width: 294px;
@@ -110,7 +116,7 @@ a {
   display: flex;
   margin-top: 32px;
   margin-bottom: 32px;
-  padding: 0;
+
 }
 
 .contact-list-item:not(:last-child) {

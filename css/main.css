@@ -38,6 +38,7 @@ a {
   padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
+  
 }
 h1,
 h2,
@@ -64,14 +65,17 @@ img{
 .link-header{
   padding-top: 32px;
   padding-bottom: 32px;
+  display: inline-block;
+}
+.link-logo-header{
+  padding-top: 24px;
+  padding-bottom: 24px;
+  
 }
 .nav-box{
   display: flex;
-  align-items: center;
 }
-nav{
-  margin-right: auto;
-}
+
 .link-logo {
   font-family: 'Raleway', sans-serif;
   color: #000000;
