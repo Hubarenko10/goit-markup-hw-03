@@ -142,6 +142,7 @@ a {
   border-color: transparent;
   border-radius: 4px;
   cursor: pointer;
+  padding: 6px 22px;
 }
 .btn:hover,
 .btn:focus {
@@ -150,8 +151,9 @@ a {
 }
 .btn-section-list{
   display: flex; 
-  padding-bottom: 34px;
+  
   justify-content: center;
+  margin-bottom: 50px;
 
 }
 .container-btn{
@@ -163,10 +165,11 @@ a {
 .btn-section-list-item:not(:last-child){
   margin-right:8px;
 }
-img{
-  margin-bottom: 20px;
-}
 
+.cards-name{
+  padding:20px 24px ;
+  
+}
 .main-content{
   display: flex;
   flex-wrap: wrap;
@@ -189,7 +192,6 @@ img{
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-top:0;
   margin-bottom: 4px;
   
 }
