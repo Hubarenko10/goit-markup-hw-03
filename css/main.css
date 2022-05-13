@@ -231,6 +231,8 @@ img{
   margin-bottom: 50px;
   margin-left: 0;
   margin-right: 0;
+  padding-top: 94px;
+
 }
 
 .about-box {
@@ -245,6 +247,7 @@ img{
   margin-right: 30px;
 }
 .our-team{
+  background-color: rgba(245, 244, 250, 1);
   padding-top: 0;
 }
 .team-list{
