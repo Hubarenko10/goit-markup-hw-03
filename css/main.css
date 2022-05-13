@@ -123,8 +123,8 @@ img{
 /*contact-section*/
 .contact-list{
   display:flex;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   
 }
 .contact-list-item:not(:last-child){
