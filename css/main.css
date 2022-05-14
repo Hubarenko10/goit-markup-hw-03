@@ -248,10 +248,11 @@ img{
 }
 .our-team{
   background-color: rgba(245, 244, 250, 1);
-  padding-top: 0;
+  padding-top: 94px;
+  padding-bottom: ;
 }
 .our-team-title{
-  padding-top: 94px ;
+  
 }
 .team-list{
  display: flex;
