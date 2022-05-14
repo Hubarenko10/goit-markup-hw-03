@@ -103,7 +103,6 @@ img{
   line-height: 1.14;
   letter-spacing: 0.02em;
   margin-right: 331px;
-  
   padding: 0;
   display: flex;
   width: 294px;
@@ -122,10 +121,23 @@ img{
 }
 /*contact-section*/
 .contact-list{
-  display:flex;
+  display: inline-flex;
   padding-top: 32px;
   padding-bottom: 32px;
   
+}
+.contact-list-item{
+  display: flex;
+  align-items: center;
+}
+
+.contact-list-icon{
+  margin-right: 10px;
+  fill: rgba(117, 117, 117, 1);
+  cursor: pointer;
+}
+.contact-list-icon:hover{
+ fill: rgba(33, 150, 243, 1);
 }
 .contact-list-item:not(:last-child){
   margin-right: 50px;
@@ -249,7 +261,7 @@ img{
 .our-team{
   background-color: rgba(245, 244, 250, 1);
   padding-top: 94px;
-  padding-bottom: ;
+  
 }
 .our-team-title{
   
